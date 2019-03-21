@@ -52,7 +52,7 @@ Mkfile.old
 dkms.conf
 
 # Xcode
-.xcodeproj
+*.xcodeproj*
 
 # Other
-.DS_Store
+*.DS_Store
