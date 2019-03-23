@@ -8,6 +8,7 @@ int main(int argc, const char * argv[]) {
     
     int table[] = {1, 1};
 
+    printf("[%d, %d]\n", table[0], table[1]);
     for (int i = 0; i < ITERATION; i++) {
         fibonacci(table);
         printf("[%d, %d]\n", table[0], table[1]);
